@@ -50,7 +50,7 @@ export function ProjectCard({
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
+        {!video && (
           <video
             src={video}
             autoPlay
