@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-
+import { Icon } from '@iconify/react'
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -48,6 +48,24 @@ export default function Page() {
             {DATA.summary}
           </Markdown>
         </BlurFade>
+      </section>
+      <section id="skills">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <h2 className="text-xl font-bold">Skills</h2>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-3  max-w-[800px]">
+            {DATA.skills.map((skill, id) => (
+
+              <BlurFade key={skill.title} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <div className="flex flex-col items-center justify-center space-y-4  text-center">
+                  <Icon icon={skill.icon} width={50} height={50}/>
+                  <Badge key={skill.icon} variant={'outline'}>{skill.title}</Badge>
+                </div>
+              </BlurFade>
+            ))}
+          </div>
+        </div>
       </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -97,20 +115,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
-          </div>
-        </div>
-      </section>
+
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>

@@ -12,16 +12,20 @@ export const DATA = {
   summary:
     "Experienced Front-End Developer with over 3 years and 9 months of specialized experience in Next JS, React JS, and ReactNative technologies. Dedicated to crafting high-performance web applications and mobile applications with a keen eye for detail and user experience. Committed to staying updated with the latest trends and advancements in front-end development. Eager to leverage my skills, expertise, and proven track record to contribute to innovative projects and advance my career in a dynamic and collaborative environment.",
   avatarUrl: "/rajeev.jpeg",
-  skills: [
-    "React JS", "React Native",
-    "Next.js",
-    "Redux",
-    "Typescript",
-    "Material UI", "JSON",
-    "D3.js", "Axios",
-    "Node.js", "JavaScript",
-    "HTML/CSS", "Bootstrap",
-
+   skills: [
+    { title: "React JS", icon: "logos:react" },
+    { title: "React Native", icon: "logos:react" },
+    { title: "Next.js", icon: "logos:nextjs" },
+    { title: "Redux", icon: "logos:redux" },
+    { title: "Typescript", icon: "logos:typescript-icon" },
+    { title: "Material UI", icon: "logos:material-ui" },
+    { title: "JSON", icon: "vscode-icons:file-type-json" },
+    { title: "D3.js", icon: "logos:d3" },
+    { title: "Axios", icon: "simple-icons:axios" },
+    { title: "Node.js", icon: "logos:nodejs-icon" },
+    { title: "JavaScript", icon: "logos:javascript" },
+    { title: "HTML/CSS", icon: "vscode-icons:file-type-html" },
+    { title: "Bootstrap", icon: "logos:bootstrap" },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -149,6 +153,61 @@ export const DATA = {
         "Typescript",
         "Material UI", "JSON",
         "D3.js", "Axios",
+         "JavaScript",
+        "HTML/CSS", 
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://Eduley.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Eduley-ph.png",
+      video:
+        "https://www.youtube.com/watch?v=UkOPg93EIK4",
+    },
+    {
+      title: "VoiceMate",
+      href: "https://amplify.thevoicemate.com/",
+      dates: "Jan 2021 - Feb 2022",
+      active: true,
+      description:
+        "Automate, streamline, and grow your College with a hassle-free software built by College owners, for College owners.",
+      technologies: [
+        "React JS",
+        "Redux",
+        "Material UI", "JSON",
+        "Axios",
+        "JavaScript",
+        "HTML/CSS", "Bootstrap",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://Eduley.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/VoiceMate.png",
+      video:
+        "https://www.youtube.com/watch?v=UkOPg93EIK4",
+    },
+    {
+      title: "MustMate",
+      href: "https://Eduley.com",
+      dates: "Jan 2022 - Feb 2024",
+      active: true,
+      description:
+        "Automate, streamline, and grow your College with a hassle-free software built by College owners, for College owners.",
+      technologies: [
+        "React JS",
+        "Next.js",
+        "Redux",
+        "Typescript",
+        "Material UI", "JSON",
+        "D3.js", "Axios",
         "Node.js", "JavaScript",
         "HTML/CSS", "Bootstrap",
 
@@ -164,7 +223,6 @@ export const DATA = {
       video:
         "https://www.youtube.com/watch?v=UkOPg93EIK4",
     },
-
 
   ],
   hackathons: [
