@@ -1,0 +1,165 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [78.9629, 22.5937],
+              [78.77, 22.68],
+              [78.83, 23.14],
+              [79.10, 23.50],
+              [79.70, 23.80],
+              [80.50, 24.10],
+              [80.70, 23.50],
+              [80.20, 23.10]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Uttar Pradesh",
+          "population": 204200000
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [72.82, 18.97],
+              [72.95, 19.09],
+              [73.02, 19.15],
+              [73.10, 19.18],
+              [73.21, 19.23],
+              [73.45, 19.33],
+              [73.65, 19.29],
+              [73.83, 19.20]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Maharashtra",
+          "population": 112400000
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [78.0891, 27.5917],
+              [77.7102, 27.2978],
+              [77.6582, 26.8787],
+              [77.8954, 26.8354],
+              [78.0845, 26.6435],
+              [78.2128, 26.7345]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Rajasthan",
+          "population": 68548437
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [92.5582, 24.8172],
+              [92.5725, 24.8435],
+              [92.5963, 24.8648],
+              [92.6014, 24.8445],
+              [92.6488, 24.8679]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Assam",
+          "population": 31205576
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [77.2090, 28.6139],
+              [77.3150, 28.6200],
+              [77.3800, 28.7000],
+              [77.5100, 28.7250],
+              [77.6250, 28.6500]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Delhi",
+          "population": 16787941
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [77.1031, 29.2148],
+              [77.1453, 29.1648],
+              [77.1228, 29.0821],
+              [77.2135, 29.0169],
+              [77.3548, 29.1412]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Haryana",
+          "population": 25351462
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [73.6762, 18.5311],
+              [73.7410, 18.5823],
+              [73.8546, 18.6637],
+              [73.9075, 18.7556],
+              [74.0333, 18.7833]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Goa",
+          "population": 1458545
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [77.5825, 18.5204],
+              [77.5900, 18.5388],
+              [77.6000, 18.5424],
+              [77.6400, 18.5500],
+              [77.6825, 18.5750]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Telangana",
+          "population": 35003674
+        }
+      }
+    ]
+  }
+  

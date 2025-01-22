@@ -1,0 +1,50 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [78.9629, 22.5937],
+              [78.77, 22.68],
+              [78.83, 23.14],
+              [79.10, 23.50],
+              [79.70, 23.80],
+              [80.50, 24.10],
+              [80.70, 23.50],
+              [80.20, 23.10]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Uttar Pradesh",
+          "population": 204200000
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [72.82, 18.97],
+              [72.95, 19.09],
+              [73.02, 19.15],
+              [73.10, 19.18],
+              [73.21, 19.23],
+              [73.45, 19.33],
+              [73.65, 19.29],
+              [73.83, 19.20]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Maharashtra",
+          "population": 112400000
+        }
+      }
+    ]
+  }
+  
