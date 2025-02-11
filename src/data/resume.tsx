@@ -1,17 +1,16 @@
 import { Icons } from "@/components/icons";
+import { Icon } from '@iconify/react'
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Rajeev Ranjan Singh",
-  initials: "DV",
-  url: "https://github.com/rajeever19",
-  location: "Bengaluru, India",
-  locationLink: "https://www.google.com/maps/place/bengaluru",
-  description:
-    "Frontend Developer | Next.js | React.js | React Native | TypeScript | Immediate Joiner | +91-8541849528 | rrsrrsrajeev@gmail.com",
-  summary:
-    "Experienced Front-End Developer with over 3 years and 9 months of specialized experience in Next JS, React JS, and ReactNative technologies. Dedicated to crafting high-performance web applications and mobile applications with a keen eye for detail and user experience. Committed to staying updated with the latest trends and advancements in front-end development. Eager to leverage my skills, expertise, and proven track record to contribute to innovative projects and advance my career in a dynamic and collaborative environment.",
-  avatarUrl: "/rajeev.jpeg",
+ "name": "Rajeev Ranjan Singh",
+  "initials": "DV",
+  "url": "https://github.com/rajeever19",
+  "location": "Bengaluru, India",
+  "locationLink": "https://www.google.com/maps/place/bengaluru",
+  "description": "Frontend Developer | Next.js | React.js | React Native | TypeScript | Immediate Joiner | Building Scalable & High-Performance Apps | Productive from Day 1",
+  "summary": "Experienced Front-End Developer with over 3 years and 9 months of specialized experience in Next.js, React.js, and React Native technologies. Dedicated to crafting high-performance web applications and mobile applications with a keen eye for detail and user experience. Committed to staying updated with the latest trends and advancements in front-end development. Eager to leverage my skills, expertise, and proven track record to contribute to innovative projects and advance my career in a dynamic and collaborative environment.",
+avatarUrl: "/rajeev.jpeg",
    skills: [
     { title: "React JS", icon: "logos:react" },
     { title: "React Native", icon: "logos:react" },
@@ -26,6 +25,7 @@ export const DATA = {
     { title: "JavaScript", icon: "logos:javascript" },
     { title: "HTML/CSS", icon: "vscode-icons:file-type-html" },
     { title: "Bootstrap", icon: "logos:bootstrap" },
+    { title:'Tailwind CSS',icon:'logos:tailwindcss-icon'},
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -130,7 +130,7 @@ export const DATA = {
     },
     {
       school: "High School Bairgania, Sitamarhi, India",
-      href: "https://wlu.ca",
+      href: "",
       degree: "Matriculation (10th)",
       logoUrl: "/laurier.png",
       start: "2012",
@@ -164,7 +164,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Eduley-ph.png",
+      image: "/projects/eduley/Eduley-ph.png",
       video:
         "https://www.youtube.com/watch?v=UkOPg93EIK4",
     },
@@ -186,21 +186,21 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://Eduley.com",
+          href: "https://amplify.thevoicemate.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/VoiceMate.png",
+      image: "/projects/voicemate/VoiceMate.png",
       video:
         "https://www.youtube.com/watch?v=UkOPg93EIK4",
     },
     {
       title: "MustMate",
-      href: "https://Eduley.com",
+      href: "https://must-mate.ai/",
       dates: "Jan 2022 - Feb 2024",
       active: true,
       description:
-        "Automate, streamline, and grow your College with a hassle-free software built by College owners, for College owners.",
+        "MustMate is a modern workforce management solution designed to streamline HR operations, optimize productivity, and improve employee engagement. Whether managing remote teams or in-office staff, MustMate provides an intuitive and efficient way to track time, manage payroll, and automate HR processes—all in one place",
       technologies: [
         "React JS",
         "Next.js",
@@ -208,22 +208,55 @@ export const DATA = {
         "Typescript",
         "Material UI", "JSON",
         "D3.js", "Axios",
-        "Node.js", "JavaScript",
+         "JavaScript",
         "HTML/CSS", "Bootstrap",
 
       ],
       links: [
         {
           type: "Website",
-          href: "https://Eduley.com",
+          href: "https://must-mate.ai/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Eduley-ph.png",
+      image: "/projects/mustmate/home.png",
       video:
         "https://www.youtube.com/watch?v=UkOPg93EIK4",
     },
-
+    {
+      title: "SpendTheBits",
+      href: "https://spendthebits.com/",
+      dates: "Jan 2022 - Feb 2024",
+      active: true,
+      description:
+        "The SpendTheBits Merchant Portal will facilitate payments in Bitcoin to both brick-and-mortar as well as online merchants over the XRP Ledger. Users will be able to send fast and cost-effective payments to merchants.",
+      technologies: [
+        "React JS",
+        "Next.js",
+        "Redux",
+        "Typescript",
+        "Material UI", "JSON",
+        "D3.js", "Axios",
+         "JavaScript",
+        "HTML/CSS", "Bootstrap",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://play.google.com/store/apps/details?id=com.spendthebits.classic_flare&pli=1",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Mobile App",
+          href: "https://play.google.com/store/apps/details?id=com.spendthebits.classic_flare&pli=1",
+          icon: <Icon name="logos:google-play" icon={"logos:google-play"} />,
+        },
+        
+      ],
+      image: "/projects/spendthebits/home.png",
+      video:
+        "https://www.youtube.com/watch?v=UkOPg93EIK4",
+    }
   ],
   hackathons: [
     {
@@ -231,7 +264,7 @@ export const DATA = {
       dates: "November 23rd - 25th, 2018",
       location: "London, Ontario",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "The SpendTheBits Merchant Portal will facilitate payments in Bitcoin to both brick-and-mortar as well as online merchants over the XRP Ledger. Users will be able to send fast and cost-effective payments to merchants.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
