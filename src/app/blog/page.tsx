@@ -17,6 +17,24 @@ export default async function BlogPage() {
       <BlurFade delay={BLUR_FADE_DELAY}>
         <h1 className="font-medium text-2xl mb-8 tracking-tighter">blog</h1>
       </BlurFade>
+      {/* https://dribbble.com/rrsrrsrajeev */}
+      <BlurFade delay={BLUR_FADE_DELAY * 2 + 0.05}>
+            <Link
+              className="flex flex-col space-y-1 mb-4"
+              href={`https://dribbble.com/rrsrrsrajeev`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="w-full flex flex-col">
+                <p className="tracking-tight">Dribbble</p>
+                <p className="h-6 text-xs text-muted-foreground">
+                  https://dribbble.com/rrsrrsrajeev <br/> 
+                  Check out my design experiments and works in progress on Dribbble.
+
+                </p>
+              </div>
+            </Link>
+          </BlurFade>
       {posts
         .sort((a, b) => {
           if (
