@@ -1,4 +1,3 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -6,9 +5,9 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
+import { Icon } from '@iconify/react';
 import Link from "next/link";
 import Markdown from "react-markdown";
-import { Icon } from '@iconify/react'
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -44,7 +43,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert" >
             {DATA.summary}
           </Markdown>
         </BlurFade>
@@ -54,7 +53,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-3  max-w-[800px]">
+          <div className="grid grid-cols-2 gap-5 md:grid-cols-4 sm:grid-cols-2 max-w-[800px]">
             {DATA.skills.map((skill, id) => (
 
               <BlurFade key={skill.title} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>

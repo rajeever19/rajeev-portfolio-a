@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { Icon } from '@iconify/react'
+import { Icon } from '@iconify/react';
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
@@ -9,7 +9,7 @@ export const DATA = {
   "location": "Bengaluru, India",
   "locationLink": "https://www.google.com/maps/place/bengaluru",
   "description": "Frontend Developer | Next.js | React.js | React Native | TypeScript | Immediate Joiner | Building Scalable & High-Performance Apps | Productive from Day 1",
-  "summary": "Experienced Front-End Developer with over 3 years and 9 months of specialized experience in Next.js, React.js, and React Native technologies. Dedicated to crafting high-performance web applications and mobile applications with a keen eye for detail and user experience. Committed to staying updated with the latest trends and advancements in front-end development. Eager to leverage my skills, expertise, and proven track record to contribute to innovative projects and advance my career in a dynamic and collaborative environment.",
+  "summary": "Experienced Front-End Developer with over 3 years and 9 months of specialized experience in Next.js, React.js, and React Native technologies. Dedicated to crafting high-performance web applications and mobile applications with a keen eye for detail and user experience. Committed to staying updated with the latest trends and advancements in front-end development. Eager to leverage my skills, expertise, and proven track record to contribute to innovative projects and advance my career in a dynamic and collaborative environment.**I worked for startups.**",
 avatarUrl: "/rajeev.jpeg",
    skills: [
     { title: "React JS", icon: "logos:react" },
