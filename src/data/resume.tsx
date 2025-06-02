@@ -81,7 +81,7 @@ avatarUrl: "/rajeev.jpeg",
       start: "August 2024",
       end: "Oct 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+       "Working on the Atomic Finance dashboard using React, Redux, TypeScript, and Python.",
     },
     {
       company: "Qilinlab Software PVT. LTD.",
@@ -93,7 +93,7 @@ avatarUrl: "/rajeev.jpeg",
       start: "Oct 2021",
       end: "May 2024",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Building multiple frontend apps for the internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
     {
       company: "Qilinlab Software PVT. LTD.",
