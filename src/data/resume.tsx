@@ -142,7 +142,7 @@ avatarUrl: "/rajeev.jpeg",
     {
       title: "Eduley",
       href: "https://Eduley.com",
-      dates: "Jan 2022 - Feb 2024",
+      dates: "Jan 2022 - Apr 2025",
       active: true,
       description:
         "Automate, streamline, and grow your College with a hassle-free software built by College owners, for College owners.",
@@ -197,7 +197,7 @@ avatarUrl: "/rajeev.jpeg",
     {
       title: "MustMate",
       href: "https://must-mate.ai/",
-      dates: "Jan 2022 - Feb 2024",
+      dates: "Jul 2024 - Oct 2024",
       active: true,
       description:
         "MustMate is a modern workforce management solution designed to streamline HR operations, optimize productivity, and improve employee engagement. Whether managing remote teams or in-office staff, MustMate provides an intuitive and efficient way to track time, manage payroll, and automate HR processes—all in one place",
@@ -226,13 +226,12 @@ avatarUrl: "/rajeev.jpeg",
     {
       title: "SpendTheBits",
       href: "https://spendthebits.com/",
-      dates: "Jan 2022 - Feb 2024",
+      dates: "Jan 2022 - Jun 2022",
       active: true,
       description:
         "The SpendTheBits Merchant Portal will facilitate payments in Bitcoin to both brick-and-mortar as well as online merchants over the XRP Ledger. Users will be able to send fast and cost-effective payments to merchants.",
       technologies: [
         "React JS",
-        "Next.js",
         "Redux",
         "Typescript",
         "Material UI", "JSON",
