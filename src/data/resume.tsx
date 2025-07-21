@@ -8,13 +8,14 @@ export const DATA = {
   "url": "https://github.com/rajeever19",
   "location": "Bengaluru, India",
   "locationLink": "https://www.google.com/maps/place/bengaluru",
-  "description": "Frontend Developer | Next.js | React.js | React Native | TypeScript | Immediate Joiner | Building Scalable & High-Performance Apps | Productive from Day 1",
-  "summary": "Experienced Front-End Developer with over 3 years and 9 months of specialized experience in Next.js, React.js, and React Native technologies. Dedicated to crafting high-performance web applications and mobile applications with a keen eye for detail and user experience. Committed to staying updated with the latest trends and advancements in front-end development. Eager to leverage my skills, expertise, and proven track record to contribute to innovative projects and advance my career in a dynamic and collaborative environment.**I worked for startups.**",
+  "description": "Frontend Engineer | React, Next.js & React Native | Expanding into Full-Stack with NestJS",
+  "summary": "I'm a Front-End Developer with 3.7 years of experience specializing in <b>React.js, Next.js, and React Native</b>. I’ve built fast, scalable web and mobile applications for startup environments, where ownership and quick iteration were key.\n I focus on clean UI, responsive design, and performance optimization while also exploring backend technologies like <b>NestJS</b> to strengthen my full-stack capabilities.\nI’m passionate about solving real-world problems through intuitive UX and maintainable code, and I’m eager to contribute to high-impact projects in a collaborative and fast-paced team.",
 avatarUrl: "/rajeev.jpeg",
    skills: [
     { title: "React JS", icon: "logos:react" },
     { title: "React Native", icon: "logos:react" },
     { title: "Next.js", icon: "logos:nextjs" },
+    {title:'NestJS',icon:'material-icon-theme:nest'},
     { title: "Redux", icon: "logos:redux" },
     { title: "Typescript", icon: "logos:typescript-icon" },
     { title: "Material UI", icon: "logos:material-ui" },
@@ -26,6 +27,11 @@ avatarUrl: "/rajeev.jpeg",
     { title: "HTML/CSS", icon: "vscode-icons:file-type-html" },
     { title: "Bootstrap", icon: "logos:bootstrap" },
     { title:'Tailwind CSS',icon:'logos:tailwindcss-icon'},
+    {title:'JEST',icon:'logos:jest'},
+    {title:'Git',icon:'logos:git-icon'},
+    {title:'Postman',icon:'logos:postman-icon'},
+    {title:'Docker',icon:'logos:docker-icon'},
+    {title:'Jenkins',icon:'skill-icons:jenkins-light'},
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -73,27 +79,20 @@ avatarUrl: "/rajeev.jpeg",
   work: [
     {
       company: "Must Fintech",
-      href: "https://atomic.finance",
-      badges: [],
-      location: "Bengaluru",
       title: "React JS Developer",
-      logoUrl: "/atomic.png",
+      location: "Bengaluru, India",
       start: "August 2024",
-      end: "Oct 2024",
-      description:
-       "Working on the Atomic Finance dashboard using React, Redux, TypeScript, and Python.",
+      end: "October 2024",
+      logoUrl: "/logos/mustfintech.png",
+      description: "Worked on MustMate, an HR management platform, where I led the development of dynamic user interfaces, implemented role-based access control, Slack authentication, and contributed to the core dashboard and member management modules using Next.js, Redux, and Material UI."
     },
     {
       company: "Qilinlab Software PVT. LTD.",
-      badges: [],
-      href: "https://qilinlab.com",
-      location: "Bengaluru",
       title: "Senior Frontend Developer",
       logoUrl: "/Qilinlab.png",
       start: "Oct 2021",
       end: "May 2024",
-      description:
-        "Building multiple frontend apps for the internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+      description: "Built and scaled the VoiceMate platform — a no-code voice-based B2C lead generation dashboard. Designed flow chart editor with React Flow and implemented data-driven dashboards and campaign management features using React.js and Redux."
     },
     {
       company: "Qilinlab Software PVT. LTD.",
@@ -102,7 +101,7 @@ avatarUrl: "/rajeev.jpeg",
       location: "Bengaluru",
       title: "Frontend Intern",
       logoUrl: "/Qilinlab.png",
-      start: "January 2021",
+      start: "Feb 2021",
       end: "Oct 2021",
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
@@ -145,17 +144,16 @@ avatarUrl: "/rajeev.jpeg",
       dates: "Jan 2022 - Apr 2025",
       active: true,
       description:
-        "Automate, streamline, and grow your College with a hassle-free software built by College owners, for College owners.",
+        "Eduley is an all-in-one college operations platform designed to modernize, monetize, and multiply the impact of educational institutions. It simplifies the management of student enrollment, scheduling, financials, communication, learning, and performance tracking — all within a seamless and scalable system.",
       technologies: [
         "React JS",
-        "Next.js",
+
         "Redux",
         "Typescript",
         "Material UI", "JSON",
         "D3.js", "Axios",
-         "JavaScript",
-        "HTML/CSS", 
-
+        "JavaScript",
+        "HTML/CSS", "Node.js","Jest","Tailwind CSS","Git"
       ],
       links: [
         {
@@ -174,14 +172,14 @@ avatarUrl: "/rajeev.jpeg",
       dates: "Jan 2021 - Feb 2022",
       active: true,
       description:
-        "Automate, streamline, and grow your College with a hassle-free software built by College owners, for College owners.",
+        "Built a custom dashboard using React.js and a flowchart-based editor to design and manage conversation flows for a B2C voice assistant. Enabled businesses to visually create automated sales and engagement workflows without writing code, powering lead generation through browser-based voice campaigns.",
       technologies: [
         "React JS",
         "Redux",
         "Material UI", "JSON",
         "Axios",
         "JavaScript",
-        "HTML/CSS", "Bootstrap",
+        "HTML/CSS", "Bootstrap","React Flowchart","Git"
       ],
       links: [
         {
@@ -257,6 +255,11 @@ avatarUrl: "/rajeev.jpeg",
         "https://www.youtube.com/watch?v=UkOPg93EIK4",
     }
   ],
+  testimonials: [
+  { quote: "Rajeev is an outstanding developer with great attention to detail.", author: "Team Lead at MustFinTech" },
+  { quote: "Very creative and collaborative—always delivers top-notch UI!", author: "Team of Qilinlab" },
+],
+
   hackathons: [
     {
       title: "Hack Western 5",
@@ -641,5 +644,6 @@ avatarUrl: "/rajeev.jpeg",
   //       },
   //     ],
   //   },
+  
   ],
 } as const;
