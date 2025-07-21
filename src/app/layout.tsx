@@ -20,12 +20,26 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
-    url: DATA.url,
-    siteName: `${DATA.name}`,
-    locale: "en_US",
+    title: "Rajeev Ranjan Singh – Frontend Developer",
+    description:
+      "Portfolio of Rajeev – React/Next.js developer with experience in scalable web/mobile apps.",
+    url: "https://rajeevdev.vercel.app",
+    siteName: "Rajeev's Portfolio",
+    images: [
+      {
+        url: "/preview.png", // ✅ must be relative or full absolute URL
+        width: 1200,
+        height: 630,
+        alt: "Preview of Rajeev's Portfolio",
+      },
+    ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: DATA.name,
+    description: DATA.description,
+    images: ["/preview.png"],
   },
   robots: {
     index: true,
@@ -37,14 +51,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
-  },
-  verification: {
-    google: "",
-    yandex: "",
   },
 };
 
