@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   openGraph: {
-    title: "Rajeev Ranjan Singh – Frontend Developer",
+    title: "Rajeev Ranjan Singh – Full-Stack Developer",
     description:
       "Portfolio of Rajeev – React/Next.js developer with experience in scalable web/mobile apps.",
     url: "https://rajeevdev.vercel.app",
