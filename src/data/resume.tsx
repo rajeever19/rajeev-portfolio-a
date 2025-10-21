@@ -50,7 +50,7 @@ avatarUrl: "/rajeev.jpeg",
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/rajeevranjanse/",
+        url: "https://www.linkedin.com/",
         icon: Icons.linkedin,
 
         navbar: true,
